@@ -1,92 +1,75 @@
-const PORTFOLIO_INFO = `
-You are a friendly and concise assistant for a personal portfolio website.
+// 1. Define your hardcoded responses here
+  const RESPONSES = {
+    "about": "I'm a sophomore software engineering student passionate about technology and math. I love building creative projects like games, apps and websites!",
+    "resume": "My experience includes projects like **Algèbre+** (C), a **Student Service Desk** (Python), and **Glino**(C++), a Far West runner game.",
+    "skills": "I'm proficient in **Python, C, JavaScript, and Kotlin**. I also work with digital logic tools like Logisim and Tinkercad.",
+    "contact": "You can find me on GitHub at **@wab-devx** or use the contact form on this site!",
+    "default": "I'm not sure about that. Try asking about my **About**, **Resume**, **Skills**, or **Contact** sections!"
+  };
 
-## About
-Passionate software engineering student specializing in CS and mathematics.
-Loves building creative projects. Fluent in French and English.
+  const history = [];
+  let isOpen = false;
 
-## Resume
-- Engineering/CS student (ING 1)
-- Projects: "Algèbre+" (C), "Student Service Desk & Registry" (Python), "Glino — Far West Runner" (2D game)
-- GitHub: @wab-devx
+  function toggleChat() {
+    isOpen = !isOpen;
+    document.getElementById('chat-panel').classList.toggle('open', isOpen);
+    document.getElementById('chat-toggle').classList.toggle('open', isOpen);
+    const dot = document.querySelector('#chat-toggle .dot');
+    if (dot) dot.style.display = 'none';
+    if (isOpen) setTimeout(() => document.getElementById('chat-input').focus(), 300);
+  }
 
-## Skills
-- Languages: Python, C, JavaScript, Kotlin
-- Tools: Git, GitHub, VS Code, Node.js
-- Concepts: Data structures, OOP, Graph theory, REST APIs
-- Math: Discrete math, Boolean logic, Shannon entropy
+  function autoResize(el) { el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 80) + 'px'; }
+  function handleKey(e) { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); } }
 
-## Contact
-- GitHub: github.com/wab-devx
-- Use the contact form on this website.
+  function appendMsg(role, text) {
+    const c = document.getElementById('chat-messages');
+    const w = document.createElement('div'); w.className = `msg ${role}`;
+    const a = document.createElement('div'); a.className = 'msg-avatar'; a.textContent = role === 'bot' ? '🤖' : '👤';
+    const b = document.createElement('div'); b.className = 'bubble';
+    b.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+    w.appendChild(a); w.appendChild(b); c.appendChild(w); c.scrollTop = c.scrollHeight;
+  }
 
-Guidelines: Be brief and friendly (max 3-4 sentences). Only answer about portfolio sections above.
-`;
+  function showTyping() {
+    const c = document.getElementById('chat-messages');
+    const w = document.createElement('div'); w.className = 'msg bot'; w.id = 'typing-indicator';
+    const a = document.createElement('div'); a.className = 'msg-avatar'; a.textContent = '🤖';
+    const b = document.createElement('div'); b.className = 'bubble typing'; b.innerHTML = '<span></span><span></span><span></span>';
+    w.appendChild(a); w.appendChild(b); c.appendChild(w); c.scrollTop = c.scrollHeight;
+  }
 
-const history = [];
-let isOpen = false, isLoading = false;
+  function removeTyping() { const el = document.getElementById('typing-indicator'); if (el) el.remove(); }
 
-function toggleChat() {
-isOpen = !isOpen;
-document.getElementById('chat-panel').classList.toggle('open', isOpen);
-document.getElementById('chat-toggle').classList.toggle('open', isOpen);
-const dot = document.querySelector('#chat-toggle .dot');
-if (dot) dot.style.display = 'none';
-if (isOpen) setTimeout(() => document.getElementById('chat-input').focus(), 300);
-}
+  // 2. The new sendMessage function that uses the RESPONSES object
+  async function sendMessage(overrideText) {
+    const input = document.getElementById('chat-input');
+    const text = (overrideText || input.value).trim().toLowerCase();
+    if (!text) return;
 
-function autoResize(el) { el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 80) + 'px'; }
-function handleKey(e) { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); } }
+    input.value = ''; 
+    input.style.height = 'auto';
+    appendMsg('user', text);
+    
+    showTyping();
 
-function appendMsg(role, text) {
-const c = document.getElementById('chat-messages');
-const w = document.createElement('div'); w.className = `msg ${role}`;
-const a = document.createElement('div'); a.className = 'msg-avatar'; a.textContent = role === 'bot' ? '🤖' : '👤';
-const b = document.createElement('div'); b.className = 'bubble';
-b.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
-w.appendChild(a); w.appendChild(b); c.appendChild(w); c.scrollTop = c.scrollHeight;
-}
+    // Simulate a short "thinking" delay for realism
+    setTimeout(() => {
+      removeTyping();
+      
+      let reply = RESPONSES.default;
 
-function showTyping() {
-const c = document.getElementById('chat-messages');
-const w = document.createElement('div'); w.className = 'msg bot'; w.id = 'typing-indicator';
-const a = document.createElement('div'); a.className = 'msg-avatar'; a.textContent = '🤖';
-const b = document.createElement('div'); b.className = 'bubble typing'; b.innerHTML = '<span></span><span></span><span></span>';
-w.appendChild(a); w.appendChild(b); c.appendChild(w); c.scrollTop = c.scrollHeight;
-}
+      // Simple keyword matching logic
+      if (text.includes("about")) reply = RESPONSES.about;
+      else if (text.includes("resume") || text.includes("project")) reply = RESPONSES.resume;
+      else if (text.includes("skill") || text.includes("language")) reply = RESPONSES.skills;
+      else if (text.includes("contact") || text.includes("github")) reply = RESPONSES.contact;
 
-function removeTyping() { const el = document.getElementById('typing-indicator'); if (el) el.remove(); }
+      appendMsg('bot', reply);
+    }, 600);
+  }
 
-async function sendMessage(overrideText) {
-if (isLoading) return;
-const input = document.getElementById('chat-input');
-const text = (overrideText || input.value).trim();
-if (!text) return;
-input.value = ''; input.style.height = 'auto';
-document.getElementById('chat-send').disabled = true;
-isLoading = true;
-appendMsg('user', text);
-history.push({ role: 'user', content: text });
-showTyping();
-try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 1000, system: PORTFOLIO_INFO, messages: history })
-    });
-    const data = await res.json();
-    const reply = data.content?.map(b => b.text || '').join('') || 'Sorry, I had trouble responding.';
-    removeTyping(); appendMsg('bot', reply);
-    history.push({ role: 'assistant', content: reply });
-} catch (err) {
-    removeTyping(); appendMsg('bot', '⚠️ Something went wrong. Please try again.');
-}
-isLoading = false;
-document.getElementById('chat-send').disabled = false;
-input.focus();
-}
-
-function sendChip(topic) {
-if (!isOpen) toggleChat();
-setTimeout(() => sendMessage(`Tell me about the ${topic} section`), isOpen ? 0 : 350);
-}
+  function sendChip(topic) {
+    if (!isOpen) toggleChat();
+    setTimeout(() => sendMessage(topic), isOpen ? 0 : 350);
+  }
