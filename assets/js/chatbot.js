@@ -1,10 +1,10 @@
 // 1. Define your hardcoded responses here
   const RESPONSES = {
     "about": "I'm a sophomore software engineering student passionate about technology and math. I love building creative projects like games, apps and websites!",
-    "resume": "My experience includes projects like **Algèbre+** (C), a **Student Service Desk** (Python), and **Glino**(C++), a Far West runner game.",
+    "portfolio": "I have designed some projects like **Algèbre+** (C), a **Student Service Desk** (Python), and **Glino**(C++), a Far West runner game.",
     "skills": "I'm proficient in **Python, C, JavaScript, and Kotlin**. I also work with digital logic tools like Logisim and Tinkercad.",
     "contact": "You can find me on GitHub at **@wab-devx** or use the contact form on this site!",
-    "default": "I'm not sure about that. Try asking about my **About**, **Resume**, **Skills**, or **Contact** sections!"
+    "default": "I'm not sure about that. Try asking about my **About**, **Portfolio**, **Skills**, or **Contact** sections!"
   };
 
   const history = [];
@@ -61,7 +61,7 @@
 
       // Simple keyword matching logic
       if (text.includes("about")) reply = RESPONSES.about;
-      else if (text.includes("resume") || text.includes("project")) reply = RESPONSES.resume;
+      else if (text.includes("resume") || text.includes("project")) reply = RESPONSES.portfolio;
       else if (text.includes("skill") || text.includes("language")) reply = RESPONSES.skills;
       else if (text.includes("contact") || text.includes("github")) reply = RESPONSES.contact;
 
