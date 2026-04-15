@@ -1,0 +1,494 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6" pages="6">
+  <diagram name="Home" id="home">
+    <mxGraphModel dx="1158" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h-frame" parent="1" style="rounded=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="700" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="h-header-bg" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="h-logo" parent="1" style="text;fontColor=#ffffff;fontStyle=1;fontSize=14;align=left;" value="Personal Portfolio" vertex="1">
+          <mxGeometry height="24" width="143" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="h-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About   |   Resume   |   Services   |   Portfolio   |   Dropdown ▾   |   Contact" vertex="1">
+          <mxGeometry height="24" width="495" x="310" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="h-hero-bg" parent="1" style="fillColor=#0d0d1a;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="560" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-hero-img" parent="1" style="fillColor=#1e1e3a;strokeColor=#444466;fontColor=#888899;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="560" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-name" parent="1" style="text;fontColor=#ffffff;fontStyle=1;fontSize=28;align=center;" value="Waberi Farah" vertex="1">
+          <mxGeometry height="40" width="300" x="250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="h-typed" parent="1" style="text;fontColor=#aaaaff;fontSize=13;align=center;" value="I&#39;m  [Web Designer | Developer | Freelancer]" vertex="1">
+          <mxGeometry height="24" width="450" x="175" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="h-si1" parent="1" style="ellipse;fillColor=#2a2a4a;strokeColor=#5555aa;fontColor=#ffffff;fontSize=12;" value="𝕏" vertex="1">
+          <mxGeometry height="32" width="32" x="339" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="h-si2" parent="1" style="ellipse;fillColor=#2a2a4a;strokeColor=#5555aa;fontColor=#ffffff;fontSize=12;" value="f" vertex="1">
+          <mxGeometry height="32" width="32" x="380" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="h-si3" parent="1" style="ellipse;fillColor=#2a2a4a;strokeColor=#5555aa;fontColor=#ffffff;fontSize=12;" value="✿" vertex="1">
+          <mxGeometry height="32" width="32" x="417" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="h-si4" parent="1" style="ellipse;fillColor=#2a2a4a;strokeColor=#5555aa;fontColor=#ffffff;fontSize=12;" value="in" vertex="1">
+          <mxGeometry height="32" width="32" x="458" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="h-footer-bg" parent="1" style="fillColor=#111122;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="90" width="800" x="25" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="h-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© Personal  All Rights Reserved|" vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="h-label" parent="1" style="text;fontStyle=1;fontSize=11;fontColor=#444444;align=left;" value="PAGE: index.html — Home" vertex="1">
+          <mxGeometry height="20" width="400" x="25" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="wl2LU-BDQBuYVJZYoqdA-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="496" y="361" as="geometry" />
+        </mxCell>
+        <mxCell id="wl2LU-BDQBuYVJZYoqdA-3" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github;strokeColor=#5555AA;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="27" width="25" x="499.5" y="363.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="About" id="about">
+    <mxGraphModel dx="744" dy="447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a-frame" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="1100" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a-header" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About ●   |   Resume   |   Services   |   Portfolio   |   Dropdown ▾   |   Contact" vertex="1">
+          <mxGeometry height="24" width="525" x="280" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a-ptband" parent="1" style="fillColor=#f0f0f8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-pt-title" parent="1" style="text;fontStyle=1;fontSize=22;align=center;" value="About" vertex="1">
+          <mxGeometry height="30" width="800" x="25" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="a-breadcrumb" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="Home  /  About" vertex="1">
+          <mxGeometry height="14" width="800" x="25" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sec-label" parent="1" style="text;fontStyle=1;fontSize=9;fontColor=#888888;align=left;" value="ABOUT SECTION" vertex="1">
+          <mxGeometry height="14" width="200" x="45" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="a-photo" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=10;align=center;verticalAlign=middle;" value="[ profile-img.jpg ]" vertex="1">
+          <mxGeometry height="220" width="200" x="45" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="a-bio-title" parent="1" style="text;fontStyle=1;fontSize=14;" value="Web Developer " vertex="1">
+          <mxGeometry height="22" width="340" x="270" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="a-info-l" parent="1" style="text;fontSize=10;fontColor=#444444;align=left;verticalAlign=top;" value="▸ Birthday: 31 August 2006&#xa;▸ Website: www.mywebsite.com&#xa;▸ Phone: +253 77240285&#xa;▸ City: Djibouti city, Djibouti" vertex="1">
+          <mxGeometry height="70" width="165" x="270" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="a-info-r" parent="1" style="text;fontSize=10;fontColor=#444444;align=left;verticalAlign=top;" value="▸ Age: 20&#xa;▸ Degree: Licence&#xa;▸ Email: wabefarah@gmail.com&#xa;▸ Freelance: Available" vertex="1">
+          <mxGeometry height="70" width="165" x="445" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="a-btn-cv" parent="1" style="rounded=1;fillColor=#4444aa;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Download CV" vertex="1">
+          <mxGeometry height="34" width="120" x="270" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="a-skills-label" parent="1" style="text;fontStyle=1;fontSize=9;fontColor=#888888;align=left;" value="SKILLS SECTION" vertex="1">
+          <mxGeometry height="14" width="200" x="45" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="a-skills-title" parent="1" style="text;fontStyle=1;fontSize=18;align=left;" value="Skills" vertex="1">
+          <mxGeometry height="28" width="200" x="45" y="576" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk1-lbl" parent="1" style="text;fontSize=10;align=left;" value="HTML" vertex="1">
+          <mxGeometry height="14" width="120" x="45" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk1-bar-bg" parent="1" style="fillColor=#e0e0e0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="320" x="45" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk1-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="288" x="45" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk1-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="90%" vertex="1">
+          <mxGeometry height="14" width="30" x="370" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk2-lbl" parent="1" style="text;fontSize=10;align=left;" value="CSS" vertex="1">
+          <mxGeometry height="14" width="120" x="45" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk2-bar-bg" parent="1" style="fillColor=#e0e0e0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="320" x="45" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk2-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="272" x="45" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk2-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="85%" vertex="1">
+          <mxGeometry height="14" width="30" x="370" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk3-lbl" parent="1" style="text;fontSize=10;align=left;" value="JavaScript" vertex="1">
+          <mxGeometry height="14" width="120" x="45" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk3-bar-bg" parent="1" style="fillColor=#e0e0e0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="320" x="45" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk3-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="256" x="45" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk3-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="80%" vertex="1">
+          <mxGeometry height="14" width="30" x="370" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk4-lbl" parent="1" style="text;fontSize=10;align=left;" value="C &amp; C++" vertex="1">
+          <mxGeometry height="14" width="120" x="435" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk4-bar-bg" parent="1" style="fillColor=#e0e0e0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="320" x="435" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk4-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="256" x="435" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk4-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="80%" vertex="1">
+          <mxGeometry height="14" width="30" x="760" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk5-lbl" parent="1" style="text;fontSize=10;align=left;" value="Python" vertex="1">
+          <mxGeometry height="14" width="120" x="435" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk5-bar-bg" parent="1" style="fillColor=#e0e0e0;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="320" x="435" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk5-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="304" x="435" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk5-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="95%" vertex="1">
+          <mxGeometry height="14" width="30" x="760" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk6-lbl" parent="1" style="text;fontSize=10;align=left;" value="Node&#xa;" vertex="1">
+          <mxGeometry height="14" width="120" x="435" y="686" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk6-bar" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="224" x="435" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="a-sk6-pct" parent="1" style="text;fontSize=9;fontColor=#888888;align=right;" value="70%" vertex="1">
+          <mxGeometry height="14" width="30" x="760" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="a-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© All Rights Reserved " vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="1068" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Resume" id="resume">
+    <mxGraphModel dx="802" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r-frame" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="1000" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="r-header" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="r-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About   |   Resume ●   |   Services   |   Portfolio   |   Dropdown ▾   |   Contact" vertex="1">
+          <mxGeometry height="24" width="525" x="280" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="r-ptband" parent="1" style="fillColor=#f0f0f8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r-pt-title" parent="1" style="text;fontStyle=1;fontSize=22;align=center;" value="Resume" vertex="1">
+          <mxGeometry height="30" width="800" x="25" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="r-breadcrumb" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="Home  /  Resume" vertex="1">
+          <mxGeometry height="14" width="800" x="25" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="r-sum-title" parent="1" style="text;fontStyle=1;fontSize=15;align=left;" value="Summary" vertex="1">
+          <mxGeometry height="22" width="150" x="45" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="r-sum-divider" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="3" width="340" x="45" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="r-sum-card" parent="1" style="fillColor=#f8f8ff;strokeColor=#ccccee;rounded=1;" value="" vertex="1">
+          <mxGeometry height="110" width="340" x="45" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="r-sum-name" parent="1" style="text;fontStyle=1;fontSize=12;align=left;" value="Waberi Farah" vertex="1">
+          <mxGeometry height="18" width="200" x="58" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="r-sum-contact" parent="1" style="text;fontColor=#666666;fontSize=9;align=left;" value="📍 Djibouti City, DJI ☎ 77240285 ✉ wabefarah@gmail.com" vertex="1">
+          <mxGeometry height="28" width="310" x="58" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu-title" parent="1" style="text;fontStyle=1;fontSize=15;align=left;" value="Education" vertex="1">
+          <mxGeometry height="22" width="150" x="45" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu-divider" parent="1" style="fillColor=#4444aa;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="3" width="340" x="45" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu1-card" parent="1" style="fillColor=#f8f8ff;strokeColor=#ccccee;rounded=1;" value="" vertex="1">
+          <mxGeometry height="100" width="340" x="45" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu1-degree" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Scientific Baccalaureate" vertex="1">
+          <mxGeometry height="16" width="290" x="58" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu1-year" parent="1" style="rounded=1;fillColor=#4444aa;strokeColor=none;fontColor=#ffffff;fontSize=9;" value="2024" vertex="1">
+          <mxGeometry height="18" width="80" x="58" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu1-school" parent="1" style="text;fontColor=#888888;fontStyle=2;fontSize=9;align=left;" value="Guelleh Batal Private Highschool, Djibouti city" vertex="1">
+          <mxGeometry height="14" width="290" x="58" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu2-card" parent="1" style="fillColor=#f8f8ff;strokeColor=#ccccee;rounded=1;" value="" vertex="1">
+          <mxGeometry height="100" width="340" x="45" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu2-degree" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Computor Engeenering Diploma " vertex="1">
+          <mxGeometry height="16" width="290" x="58" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu2-year" parent="1" style="rounded=1;fillColor=#4444aa;strokeColor=none;fontColor=#ffffff;fontSize=9;" value="2025 ~" vertex="1">
+          <mxGeometry height="18" width="80" x="58" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="r-edu2-school" parent="1" style="text;fontColor=#888888;fontStyle=2;fontSize=9;align=left;" value="University of Djibouti, Engeenering Faculté, Djibouti city" vertex="1">
+          <mxGeometry height="14" width="290" x="58" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="r-footer" parent="1" style="fillColor=#111122;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="r-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© All Rights Reserved " vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="968" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Services" id="services">
+    <mxGraphModel dx="744" dy="447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sv-frame" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="860" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-header" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-logo" parent="1" style="text;fontColor=#ffffff;fontStyle=1;fontSize=14;align=left;" value="Personal" vertex="1">
+          <mxGeometry height="24" width="80" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About   |   Resume   |   Services ●   |   Portfolio   |   Dropdown ▾   |   Contact" vertex="1">
+          <mxGeometry height="24" width="525" x="280" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-ptband" parent="1" style="fillColor=#f0f0f8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-pt-title" parent="1" style="text;fontStyle=1;fontSize=22;align=center;" value="Services" vertex="1">
+          <mxGeometry height="30" width="800" x="25" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-breadcrumb" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="Home  /  Services" vertex="1">
+          <mxGeometry height="14" width="800" x="25" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c1" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="45" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c2" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="310" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c3" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="575" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c4" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="45" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c5" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="310" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-c6" parent="1" style="rounded=1;fillColor=#f8f8ff;strokeColor=#ccccee;shadow=1;" value="" vertex="1">
+          <mxGeometry height="140" width="230" x="575" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-footer" parent="1" style="fillColor=#111122;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="102" width="800" x="25" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="sv-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© All Rights Reserved " vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="828" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Portfolio" id="portfolio">
+    <mxGraphModel dx="719" dy="432" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pf-frame" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="920" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-header" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-logo" parent="1" style="text;fontColor=#ffffff;fontStyle=1;fontSize=14;align=left;" value="Personal" vertex="1">
+          <mxGeometry height="24" width="80" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About   |   Resume   |   Services   |   Portfolio ●   |   Dropdown ▾   |   Contact" vertex="1">
+          <mxGeometry height="24" width="525" x="280" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-ptband" parent="1" style="fillColor=#f0f0f8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-pt-title" parent="1" style="text;fontStyle=1;fontSize=22;align=center;" value="Portfolio" vertex="1">
+          <mxGeometry height="30" width="800" x="25" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-breadcrumb" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="Home  /  Portfolio" vertex="1">
+          <mxGeometry height="14" width="800" x="25" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-filters" parent="1" style="fillColor=none;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="34" width="500" x="150" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-f-all" parent="1" style="rounded=1;fillColor=#4444aa;strokeColor=none;fontColor=#ffffff;fontSize=10;" value="All" vertex="1">
+          <mxGeometry height="28" width="70" x="150" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-f-app" parent="1" style="rounded=1;fillColor=#eeeeee;strokeColor=#cccccc;fontColor=#555555;fontSize=10;" value="App" vertex="1">
+          <mxGeometry height="28" width="70" x="232" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-f-prod" parent="1" style="rounded=1;fillColor=#eeeeee;strokeColor=#cccccc;fontColor=#555555;fontSize=10;" value="Product" vertex="1">
+          <mxGeometry height="28" width="70" x="314" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-f-brand" parent="1" style="rounded=1;fillColor=#eeeeee;strokeColor=#cccccc;fontColor=#555555;fontSize=10;" value="Branding" vertex="1">
+          <mxGeometry height="28" width="70" x="396" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-f-books" parent="1" style="rounded=1;fillColor=#eeeeee;strokeColor=#cccccc;fontColor=#555555;fontSize=10;" value="Books" vertex="1">
+          <mxGeometry height="28" width="70" x="478" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i1" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-1.webp ]&#xa;📎 App 1  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="45" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i2" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-10.webp ]&#xa;📎 Product 1  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="310" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i3" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-7.webp ]&#xa;📎 Branding 1  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="575" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i4" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-4.webp ]&#xa;📎 Books 1  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="45" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i5" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-2.webp ]&#xa;📎 App 2  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="310" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i6" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-11.webp ]&#xa;📎 Product 2  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="575" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i7" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-8.webp ]&#xa;📎 Branding 2  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="45" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i8" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-5.webp ]&#xa;📎 Books 2  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="310" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-i9" parent="1" style="fillColor=#ffe6cc;strokeColor=#d6b656;fontColor=#996600;fontSize=9;align=center;verticalAlign=middle;" value="[ portfolio-3.webp ]&#xa;📎 App 3  🔗" vertex="1">
+          <mxGeometry height="150" width="230" x="575" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-footer" parent="1" style="fillColor=#111122;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="110" width="800" x="25" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="pf-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© All Rights Reserved  &#xa;" vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Contact" id="contact">
+    <mxGraphModel dx="1158" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1050" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ct-frame" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#999999;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="920" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-header" parent="1" style="fillColor=#1a1a2e;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="25" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-logo" parent="1" style="text;fontColor=#ffffff;fontStyle=1;fontSize=14;align=left;" value="Personal" vertex="1">
+          <mxGeometry height="24" width="80" x="45" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-nav" parent="1" style="text;fontColor=#aaaaaa;fontSize=10;align=right;" value="Home   |   About   |   Resume   |   Services   |   Portfolio   |   Dropdown ▾   |   Contact ●" vertex="1">
+          <mxGeometry height="24" width="525" x="280" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-ptband" parent="1" style="fillColor=#f0f0f8;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="100" width="800" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-pt-title" parent="1" style="text;fontStyle=1;fontSize=22;align=center;" value="Contact" vertex="1">
+          <mxGeometry height="30" width="800" x="25" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-breadcrumb" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="Home  /  Contact" vertex="1">
+          <mxGeometry height="14" width="800" x="25" y="142" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info1" parent="1" style="rounded=1;fillColor=#f0f4ff;strokeColor=#c0c8ee;" value="" vertex="1">
+          <mxGeometry height="70" width="365" x="45" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info1-icon" parent="1" style="text;fontSize=22;align=left;" value="📍" vertex="1">
+          <mxGeometry height="36" width="36" x="58" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info1-text" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Address" vertex="1">
+          <mxGeometry height="16" width="280" x="100" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info2" parent="1" style="rounded=1;fillColor=#f0f4ff;strokeColor=#c0c8ee;" value="" vertex="1">
+          <mxGeometry height="70" width="365" x="420" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info2-icon" parent="1" style="text;fontSize=22;align=left;" value="📞" vertex="1">
+          <mxGeometry height="36" width="36" x="433" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info2-text" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Call Me" vertex="1">
+          <mxGeometry height="16" width="280" x="475" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info3" parent="1" style="rounded=1;fillColor=#f0f4ff;strokeColor=#c0c8ee;" value="" vertex="1">
+          <mxGeometry height="70" width="365" x="45" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info3-icon" parent="1" style="text;fontSize=22;align=left;" value="✉" vertex="1">
+          <mxGeometry height="36" width="36" x="58" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info3-text" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Email Us" vertex="1">
+          <mxGeometry height="16" width="280" x="100" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info4" parent="1" style="rounded=1;fillColor=#f0f4ff;strokeColor=#c0c8ee;" value="" vertex="1">
+          <mxGeometry height="70" width="365" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info4-icon" parent="1" style="text;fontSize=22;align=left;" value="🔗" vertex="1">
+          <mxGeometry height="36" width="36" x="433" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info4-text" parent="1" style="text;fontStyle=1;fontSize=11;align=left;" value="Social Profiles" vertex="1">
+          <mxGeometry height="16" width="280" x="475" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-info4-val" parent="1" style="text;fontColor=#4444aa;fontSize=14;align=left;" value="𝕏   f   ✿   S   in" vertex="1">
+          <mxGeometry height="20" width="200" x="475" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-form" parent="1" style="rounded=1;fillColor=#fafafa;strokeColor=#dddddd;" value="" vertex="1">
+          <mxGeometry height="340" width="740" x="45" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-form-label" parent="1" style="text;fontStyle=1;fontSize=9;fontColor=#888888;align=left;" value="CONTACT FORM" vertex="1">
+          <mxGeometry height="14" width="200" x="58" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-name" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#cccccc;fontColor=#aaaaaa;fontSize=10;align=left;" value="Your Name" vertex="1">
+          <mxGeometry height="36" width="340" x="58" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-email" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#cccccc;fontColor=#aaaaaa;fontSize=10;align=left;" value="Your Email" vertex="1">
+          <mxGeometry height="36" width="340" x="432" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-subject" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#cccccc;fontColor=#aaaaaa;fontSize=10;align=left;" value="Subject" vertex="1">
+          <mxGeometry height="36" width="714" x="58" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-msg" parent="1" style="rounded=1;fillColor=#ffffff;strokeColor=#cccccc;fontColor=#aaaaaa;fontSize=10;align=left;verticalAlign=top;" value="Message" vertex="1">
+          <mxGeometry height="110" width="714" x="58" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-btn" parent="1" style="rounded=1;fillColor=#4444aa;strokeColor=none;fontColor=#ffffff;fontSize=11;" value="Send Message" vertex="1">
+          <mxGeometry height="38" width="170" x="330" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-f-status" parent="1" style="text;fontColor=#aaaaaa;fontSize=9;align=center;" value="[ Loading… ]   [ Error message ]   [ Sent confirmation ]" vertex="1">
+          <mxGeometry height="14" width="714" x="58" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-footer" parent="1" style="fillColor=#111122;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="110" width="800" x="25" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-footer-copy" parent="1" style="text;fontColor=#555566;fontSize=8;align=center;" value="© All Rights Reserved " vertex="1">
+          <mxGeometry height="16" width="800" x="25" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-pagelabel" parent="1" style="text;fontStyle=1;fontSize=11;fontColor=#444444;align=left;" value="PAGE: contact.html — Contact" vertex="1">
+          <mxGeometry height="20" width="400" x="25" y="940" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
